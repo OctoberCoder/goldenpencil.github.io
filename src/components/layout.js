@@ -66,7 +66,7 @@ const Layout = ({ children, location }) => {
   }, [isLoading]);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
-  const handleExternalLinks = () => {
+  function handleExternalLinks() {
     const allLinks = Array.from(document.querySelectorAll('a'));
     if (allLinks.length > 0) {
       allLinks.forEach(link => {
@@ -76,7 +76,7 @@ const Layout = ({ children, location }) => {
         }
       });
     }
-  };
+  }
 
   useEffect(() => {
     handleExternalLinks();
