@@ -151,9 +151,9 @@ const About = () => {
 
             <p>
               Shortly after graduating from{' '}
-              <a href="https://www.uniuyo.edu.ng">University of Uyo</a>, I joined the
-              development team at <a href="https://www.lighthousemedia.netlify.com">Lighthouse Media</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              <a href="https://www.uniuyo.edu.ng">University of Uyo</a>, I joined the development
+              team at <a href="https://www.lighthousemedia.netlify.com">Lighthouse Media</a> where I
+              work on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
